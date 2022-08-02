@@ -33,3 +33,53 @@ my_string = "hello i have a string"
 print(myString[:5]
 ```
 Note that you can place the colon `:` anywhere within the square brackets, switching which side of the ratio is being cut.
+
+## Collections
+
+In python (and other programming languages), you can create variables which contain multiple pieces of data. These are known as lists.
+
+To create a list in python you need to use `[]` encapsulating the multiple data you want to make. For example:
+
+```shopping_list = ["eggs", "milk", "croissants", "apple juice", "bell peppers"] # list```
+
+You can use a for each loop to present each item, like this:
+```commandline
+for item in shopping_list: # for each loop to print each item in list
+    print(item)
+```
+Or you can just print it out like normal, which will print the entirel ist:
+```commandline
+print(shopping_list)
+```
+
+If you want to get the type of data and the length of the list:
+
+```commandline
+print(type(shopping_list))# find out the type of shopping list
+print(len(shopping_list))# find out the length of shopping list
+```
+
+If you want to add an item or remove an item from a list:
+
+```commandline
+shopping_list.append("a reason to live") # how to add to our shopping list
+shopping_list.remove("croissants") # how to remove from a list
+print(shopping_list)
+```
+
+You can also make lists hold multiple different types of data, as such: 
+```commandline
+mixed_list = [1, 5, 3, "two", "things", False, 3.14] # you can make lists with different data types in them
+print(mixed_list)
+
+```
+If you want to use slicing in lists, it looks like this:
+```
+# slicing up lists
+print(mixed_list[1:5]) # 3 : 5
+```
+Using the same `[:]` and/or `[-0]` functions, you can grab sub-arrays or individual peices of the list.
+
+## DoR
+
+## DoD
